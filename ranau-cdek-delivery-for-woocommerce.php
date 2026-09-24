@@ -3,7 +3,7 @@
  * Plugin Name: Ranau CDEK Delivery for WooCommerce
  * Plugin URI: https://ranau.uk/wordpress/ranau-cdek-delivery-for-woocommerce/
  * Description: Выбор ПВЗ и постамата СДЭК с серверным расчетом доставки в WooCommerce. Плагин не создает отправления в СДЭК.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Requires at least: 6.9
  * Requires PHP: 7.4
  * Author: Ranau
@@ -20,7 +20,7 @@ declare(strict_types=1);
 
 defined('ABSPATH') || exit;
 
-define('RANAU_CDEK_DELIVERY_VERSION', '0.1.0');
+define('RANAU_CDEK_DELIVERY_VERSION', '0.1.1');
 define('RANAU_CDEK_DELIVERY_FILE', __FILE__);
 define('RANAU_CDEK_DELIVERY_DIR', plugin_dir_path(__FILE__));
 define('RANAU_CDEK_DELIVERY_URL', plugin_dir_url(__FILE__));
